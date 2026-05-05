@@ -63,3 +63,7 @@ router.get("/api", async (ctx) => {
 
 app.use(router.routes()).use(router.allowedMethods());
 ```
+
+## 4.ctx与async的用法
+
+![image](https://img2024.cnblogs.com/blog/2332774/202605/2332774-20260505235315788-2013064107.png)
