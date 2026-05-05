@@ -1,0 +1,25 @@
+{
+  "name": "nodejs-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carreyda/nodejs-practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/carreyda/nodejs-practice/issues"
+  },
+  "homepage": "https://github.com/carreyda/nodejs-practice#readme",
+  "dependencies": {
+    "@koa/router": "^15.5.0",
+    "koa": "^3.2.0"
+  }
+}
