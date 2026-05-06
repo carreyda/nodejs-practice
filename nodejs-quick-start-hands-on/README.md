@@ -114,3 +114,12 @@ this ismiddleware2 end
 this ismiddleware1 end
 */
 ```
+
+## 5.koa-generator快速生成koa服务的脚手架工具
+
+1. npm install -g koa-generator
+2. koa2 server
+3. cd server
+4. npm install
+5. npm run start
+6. npm run dev // 监视文件变化，自动重启服务，需要修改指令内容为："dev": "nodemon bin/www"
