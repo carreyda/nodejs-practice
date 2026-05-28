@@ -20,6 +20,7 @@
   "homepage": "https://github.com/carreyda/nodejs-practice#readme",
   "dependencies": {
     "@koa/router": "^15.5.0",
-    "koa": "^3.2.0"
+    "koa": "^3.2.0",
+    "log4js": "^6.9.1"
   }
 }
