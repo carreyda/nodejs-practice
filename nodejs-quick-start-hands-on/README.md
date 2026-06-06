@@ -123,3 +123,15 @@ this ismiddleware1 end
 4. npm install
 5. npm run start
 6. npm run dev // 监视文件变化，自动重启服务，需要修改指令内容为："dev": "nodemon bin/www"
+
+## 6.Mysql数据库的使用
+
+- 登录 MySQL 数据库：mysql -u root -p
+- 列出当前 MySQL 服务器上所有的数据库：show databases;
+- 环境变量：Path->bin目录
+- 创建数据库：create database koadev;
+
+## 7.项目安装mysql以及sequelize
+
+- npm install mysql -S
+- npm install sequelize -S
