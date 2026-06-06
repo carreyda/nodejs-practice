@@ -1,4 +1,5 @@
 const Sequelize = require("sequelize"); // 引入 Sequelize 模块
+const logger4 = require("../utils/log4"); // 引入自定义日志模块
 
 const sequelize = new Sequelize("koadev", "root", "GHzd24493.", {
   host: "localhost", // 数据库主机地址
@@ -12,9 +13,11 @@ const sequelize = new Sequelize("koadev", "root", "GHzd24493.", {
   },
 });
 
-Sequelize.authenticate()
+sequelize
+  .authenticate()
   .then(() => {
-    console.log("数据库连接成功！");
+    console.log("数据库连接成功console！");
+    logger4.info("数据库连接成功logger4！");
   })
   .catch((err) => {
     console.error("数据库连接失败：", err);

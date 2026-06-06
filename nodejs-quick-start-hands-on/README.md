@@ -135,3 +135,4 @@ this ismiddleware1 end
 
 - npm install mysql -S
 - npm install sequelize -S
+- npm install mysql2 -S

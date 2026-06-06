@@ -10,7 +10,7 @@ logger4.info("服务器启动中...");
 logger4.error("服务器启动失败！");
 const index = require("./routes/index");
 const users = require("./routes/users");
-
+require("./config/db"); // 引入数据库配置文件，确保数据库连接在应用启动时建立
 // error handler
 onerror(app);
 
