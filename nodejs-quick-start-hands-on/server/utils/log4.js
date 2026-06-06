@@ -29,7 +29,7 @@ log4js.configure({
   }, // appenders 定义日志输出目标，这里配置控制台输出
   categories: {
     default: { appenders: ["console"], level: "debug" },
-    info: { appenders: ["info"], level: "info" },
+    info: { appenders: ["info", "console"], level: "info" },
     error: { appenders: ["error"], level: "error" },
   }, // categories 定义日志类别：default 控制台输出 debug+级别，info 文件输出 info+级别，error 文件输出 error+级别
 });
